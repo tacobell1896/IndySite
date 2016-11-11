@@ -1,0 +1,162 @@
+﻿body
+    {
+        background-image: url(images/IndySkyline3_Original.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        font-family: Arial, Helvetica, Sans-Serif;
+    }
+
+h1 
+{
+    background-color: RGB(61, 105, 227);
+    color: White;
+    text-align: center;
+    font-family: Broadway;
+    }
+    
+h2 
+{
+    background-color: RGB(61, 105, 227);
+    color: White;
+    text-align: center;
+    font-size: medium;
+    font-family: Broadway;
+    }
+h3 
+{
+    background-color: RGB(61, 105, 227);
+    color: White;
+    text-align: center;
+    font-size: medium;
+    font-family: Broadway;
+    }
+a
+    {
+        text-decoration: none;
+    }
+
+#divWrapper
+    {
+        background-color: white;
+        width: 1000px;
+        margin: auto;
+        margin-top: 0;
+        border: 3.5px solid black;
+    }
+
+#divLeftContent 
+    {
+        
+        width: 16%;
+        padding-bottom: 20px;
+        font-size: 90%;
+        text-align: left;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+    }
+
+#divMainContent
+    {
+        width: 76%;
+        text-align: left;
+        margin-top: 0px;
+        float: right;
+        padding-left: 1em;
+        border-left: 3px solid black;
+        background-color: White;
+        padding-right: 3em;
+    }
+
+#divFooterContent
+    {
+        text-align: center;
+        font: normal small-caps 0.8 sans-serif;
+        border-top: 2px solid;
+        padding-top: 0.5em;
+        clear: both;
+    }
+
+#divLeftMenuIndvButtons > a
+    {
+        float: left;
+        width: 10em;
+        background-color: white;
+        border-color: ButtonFace;
+        border-style: outset;
+        border-width: 0.25em;
+        padding-bottom: 0em;
+        text-decoration: none;
+        text-align: center;
+        /*margin: 0.25em 0.25em 0.25em 0.25em;*/
+    }
+    
+#divHeadingContent
+    {
+        border-bottom: 5px solid black;
+        width: 1000px;
+        height: 300px;
+    }
+    
+#divWeatherWdg
+{
+    clear: left;
+    padding-top: 0.5em;
+}
+
+
+/*Test*/
+.glossymenu, .glossymenu li ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 150px; /*WIDTH OF MAIN MENU ITEMS*/
+border: 2px solid black;
+}
+
+.glossymenu li{
+position: relative;
+}
+
+.glossymenu li a{
+background: white url(images/glossyback.gif) repeat-x bottom left;
+font: bold 14px Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+width: auto;
+padding: 2px 0;
+padding-left: 5px;
+text-decoration: none;
+}
+
+.glossymenu li ul{ /*SUB MENU STYLE*/
+position: absolute;
+width: 145px; /*WIDTH OF SUB MENU ITEMS*/
+left: 0;
+top: 0;
+display: none;
+}
+
+.glossymenu li ul li{
+float: left;
+}
+
+.glossymenu li ul a{
+width: 140px; /*WIDTH OF SUB MENU ITEMS - 10px padding-left for A elements */
+}
+
+.glossymenu .arrowdiv{
+position: absolute;
+right: 2px;
+background: transparent url(images/arrow.gif) no-repeat center right;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+
+.glossymenu li a:hover{
+background-image: url(images/glossyback2.gif);
+}
+
+* html .glossymenu li { float: left; height: 1%; }
+* html .glossymenu li a { height: 1%; }
